@@ -1,10 +1,11 @@
 body{
-    background-color: #8b1a1a;
-    color: #000000;
-    margin: 0;
-    padding: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-bottom:60px;
+  background: rgb(0,0,0);
+  background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(150,35,51,1) 50%, rgba(96,38,44,1) 100%);  
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom:60px;
 }
 
 #navbar{
