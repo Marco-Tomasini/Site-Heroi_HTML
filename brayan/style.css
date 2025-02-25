@@ -1,0 +1,104 @@
+/* Estilo geral do corpo */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #800000; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+/* Estilo do cabeçalho */
+header {
+    color: white;
+    text-align: center;
+    padding: 40px 20px; /* Aumentar o espaço ao redor */
+    width: 100%;
+    background: linear-gradient(135deg, #330101, #8B0000); /* Gradiente de cor */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo da imagem do Homem Aranha */
+.imagem-homem-aranha {
+    width: 250px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 15px; /* Espaçamento acima da imagem */
+    border: 5px solid #e7f3ff; /* Borda clara ao redor da imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo das seções */
+section {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 800px;
+    text-align: left; 
+}
+
+/* Estilo dos títulos das seções */
+h2 {
+    color: #1905cf;
+    font-size: 2em; 
+    margin-bottom: 15px;
+}
+
+/* Estilo das listas de personagens */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de cada item da lista */
+li {
+    background-color: #e7f3ff;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo das imagens dos personagens */
+li img {
+    border-radius: 10px;
+    margin-right: 15px;
+    width: 100px; 
+    height: auto; 
+}
+
+/* Estilo do rodapé */
+footer {
+    color: white;
+    text-align: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #5c0000; 
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    li {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    section {
+        padding: 20px; 
+    }
+}
